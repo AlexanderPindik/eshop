@@ -26,10 +26,10 @@
 			<div class="account">
 				@{if user}
 					<a href="@{sitemap_url('account')}" class="b">@{user.name}</a>
-					<a href="@{sitemap_url('settings')}"><i class="fa fa-cog"></i>@(Settings)</a>
-					<a href="@{sitemap_url('logoff')}"><i class="fa fa-sign-out"></i>@(Sign out)</a>
+					<a href="@{sitemap_url('settings')}"><i class="fa fa-cog"></i>@(Настройки)</a>
+					<a href="@{sitemap_url('logoff')}"><i class="fa fa-sign-out"></i>@(Выйти)</a>
 				@{else}
-					<a href="@{sitemap_url('account')}"><i class="fa fa-lock"></i>@(Sign in)</a>
+					<a href="@{sitemap_url('account')}"><i class="fa fa-lock"></i>@(Войти)</a>
 				@{fi}
 			</div>
 		</div
@@ -44,19 +44,19 @@
 						</div>
 
 						<div class="categoriesbody npb">
-							<div class="caption">@(We recommend)</div>
+							<div class="caption">@(Разделы)</div>
 						</div>
 						<nav>
 							@{foreach m in F.global.navigations.panel.children}
 								<a href="@{m.url}"><i class="fa fa-caret-right"></i>@{m.name}</a>
 							@{end}
-							<a href="@{sitemap_url('new')}"><i class="fa fa-caret-right"></i>@(New goods)</a>
-							<a href="@{sitemap_url('top')}"><i class="fa fa-caret-right"></i>@(Top products)</a>
-							<a href="@{sitemap_url('popular')}"><i class="fa fa-caret-right"></i>@(Popular products)<span>@(NEW)</span></a>
-							<a href="@{sitemap_url('category')}"><i class="fa fa-caret-right"></i>@(All products)</a>
+							<a href="@{sitemap_url('new')}"><i class="fa fa-caret-right"></i>@(Новинки)</a>
+							<a href="@{sitemap_url('top')}"><i class="fa fa-caret-right"></i>@(Лучшие)</a>
+							<a href="@{sitemap_url('popular')}"><i class="fa fa-caret-right"></i>@(Популярные)<span>@(NEW)</span></a>
+							<a href="@{sitemap_url('category')}"><i class="fa fa-caret-right"></i>@(Все товары)</a>
 						</nav>
 						<div class="categoriesbody npb">
-							<div class="caption">@(Categories)</div>
+							<div class="caption">@(Категории)</div>
 						</div>
 						@{view('partials/categories')}
 					</div>
@@ -73,7 +73,7 @@
 							@{end}
 						</nav>
 						<div class="shoppingcart" data-m="shoppingcart.sum + shoppingcart">
-							<a href="@{sitemap_url('checkout')}"><b data-b="shoppingcart.sum" data-b-html="'@{global.config.currency_entity}'.format(value ? value.format(2) : (0).format(2))">...</b><span>@(Your shopping cart)</span></a>
+							<a href="@{sitemap_url('checkout')}"><b data-b="shoppingcart.sum" data-b-html="'@{global.config.currency_entity}'.format(value ? value.format(2) : (0).format(2))">...</b><span>@(Ваша корзинка)</span></a>
 						</div>
 						<form class="search" action="@{sitemap_url('category')}" method="get">
 							<button><i class="fa fa-search"></i></button>

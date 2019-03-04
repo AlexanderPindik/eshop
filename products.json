@@ -1,0 +1,854 @@
+[
+  {
+    "id": "16112621480001wdl1",
+    "pictures": [
+      "https://eshop.totaljs.com/download/1611262202Tkvs19.jpg",
+      "https://eshop.totaljs.com/download/1611262202Tutaeu.jpg",
+      "https://eshop.totaljs.com/download/1611262203Tlb76i.jpg",
+      "https://eshop.totaljs.com/download/1611262203Tveo60.jpg"
+    ],
+    "reference": "",
+    "category": "Speakers",
+    "manufacturer": "BOSE",
+    "name": "SoundLink Mini BT II",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta placeat tenetur adipisci ipsa laudantium architecto, enim perspiciatis nam, voluptate nobis tempore minima hic a libero, facere sunt aspernatur eum nesciunt.",
+    "availability": "In stock",
+    "istop": true,
+    "isnew": true,
+    "datecreated": "2016-11-26T20:48:04.366Z",
+    "ispublished": true,
+    "priceold": 200,
+    "size": [],
+    "stock": 999,
+    "bodywidgets": [
+      "17111123590002yhd0",
+      "17111200010002yhd0",
+      "17111200020002yhd0",
+      "17111200040002yhd0"
+    ],
+    "prices": [
+      {
+        "id": "17120621520002xjd0",
+        "name": "",
+        "stock": 999,
+        "price": 179.95
+      }
+    ],
+    "pricemin": 179.95,
+    "pricemax": 179.95,
+    "color": []
+  },
+  {
+    "id": "16112622260001lxw1",
+    "pictures": [
+      "https://eshop.totaljs.com/download/1611262223Tpu112.jpg",
+      "https://eshop.totaljs.com/download/1611262223T18okp.jpg",
+      "https://eshop.totaljs.com/download/1611262224Tju1bm.jpg",
+      "https://eshop.totaljs.com/download/1611262224Toph1c.jpg"
+    ],
+    "reference": "",
+    "category": "Speakers",
+    "manufacturer": "Harman Kardon",
+    "name": "Go+Play White",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta placeat tenetur adipisci ipsa laudantium architecto, enim perspiciatis nam, voluptate nobis tempore minima hic a libero, facere sunt aspernatur eum nesciunt.",
+    "availability": "In stock",
+    "istop": false,
+    "isnew": false,
+    "datecreated": "2016-11-26T21:26:39.410Z",
+    "ispublished": true,
+    "priceold": 0,
+    "size": [],
+    "stock": 999,
+    "bodywidgets": [
+      "17111123590002yhd0",
+      "17111200040002yhd0"
+    ],
+    "prices": [
+      {
+        "id": "17120621510006xjd0",
+        "name": "",
+        "stock": 999,
+        "price": 370
+      }
+    ],
+    "pricemin": 370,
+    "pricemax": 370,
+    "color": []
+  },
+  {
+    "id": "16112622350001nxe1",
+    "pictures": [
+      "https://eshop.totaljs.com/download/1611262232T4433i.jpg",
+      "https://eshop.totaljs.com/download/1611262232T19ovo.jpg",
+      "https://eshop.totaljs.com/download/1611262232Tbbm12.jpg",
+      "https://eshop.totaljs.com/download/1611262232T59b12.jpg"
+    ],
+    "reference": "",
+    "category": "Speakers",
+    "manufacturer": "JBL",
+    "name": "Authentics L16SP",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta placeat tenetur adipisci ipsa laudantium architecto, enim perspiciatis nam, voluptate nobis tempore minima hic a libero, facere sunt aspernatur eum nesciunt.",
+    "availability": "In stock",
+    "istop": false,
+    "isnew": false,
+    "datecreated": "2016-11-26T21:35:14.660Z",
+    "ispublished": true,
+    "priceold": 0,
+    "size": [],
+    "stock": 999,
+    "bodywidgets": [
+      "17111123590002yhd0",
+      "17111200040002yhd0"
+    ],
+    "prices": [
+      {
+        "id": "17120621510005xjd1",
+        "name": "",
+        "stock": 999,
+        "price": 799
+      }
+    ],
+    "pricemin": 799,
+    "pricemax": 799,
+    "color": []
+  },
+  {
+    "id": "16112622460001nxe1",
+    "pictures": [
+      "https://eshop.totaljs.com/download/1611262242T1d7q6.jpg",
+      "https://eshop.totaljs.com/download/1611262242T5kkzg.jpg",
+      "https://eshop.totaljs.com/download/1611262242Thti2s.jpg",
+      "https://eshop.totaljs.com/download/1611262242T7xsc8.jpg"
+    ],
+    "reference": "",
+    "category": "Computers",
+    "manufacturer": "Apple",
+    "name": "iMac 27",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta placeat tenetur adipisci ipsa laudantium architecto, enim perspiciatis nam, voluptate nobis tempore minima hic a libero, facere sunt aspernatur eum nesciunt.",
+    "availability": "In stock",
+    "istop": false,
+    "isnew": true,
+    "datecreated": "2016-11-26T21:46:14.680Z",
+    "ispublished": true,
+    "priceold": 0,
+    "size": [],
+    "stock": 999,
+    "bodywidgets": [
+      "17111123590002yhd0",
+      "17111221020002taf0",
+      "17111200010002yhd0",
+      "17111200040002yhd0"
+    ],
+    "prices": [
+      {
+        "id": "17120621510004xjd0",
+        "name": "",
+        "stock": 999,
+        "price": 2499
+      }
+    ],
+    "pricemin": 2499,
+    "pricemax": 2499,
+    "color": []
+  },
+  {
+    "id": "16112622530001nxe1",
+    "pictures": [
+      "https://eshop.totaljs.com/download/1611262252Tzj817.jpg",
+      "https://eshop.totaljs.com/download/1611262252T2gpme.jpg",
+      "https://eshop.totaljs.com/download/1611262253T17qq1.jpg",
+      "https://eshop.totaljs.com/download/1611262253T14wd4.jpg"
+    ],
+    "reference": "",
+    "category": "Computers",
+    "manufacturer": "Apple",
+    "name": "MacBook Pro",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta placeat tenetur adipisci ipsa laudantium architecto, enim perspiciatis nam, voluptate nobis tempore minima hic a libero, facere sunt aspernatur eum nesciunt.",
+    "availability": "In stock",
+    "istop": false,
+    "isnew": false,
+    "datecreated": "2016-11-26T21:53:14.687Z",
+    "ispublished": true,
+    "priceold": 0,
+    "size": [],
+    "stock": 999,
+    "bodywidgets": [
+      "17111123590002yhd0",
+      "17111200040002yhd0"
+    ],
+    "prices": [
+      {
+        "id": "17120621510003xjd1",
+        "name": "",
+        "stock": 999,
+        "price": 1499
+      }
+    ],
+    "pricemin": 1499,
+    "pricemax": 1499,
+    "color": []
+  },
+  {
+    "id": "16112623000001heu1",
+    "pictures": [
+      "https://eshop.totaljs.com/download/1611262300Tonf16.jpg",
+      "https://eshop.totaljs.com/download/1611262300Ta7w11.jpg",
+      "https://eshop.totaljs.com/download/1611262300Tq1718.jpg",
+      "https://eshop.totaljs.com/download/1611262301Tyzicd.jpg",
+      "https://eshop.totaljs.com/download/1611262301Thsw8g.jpg"
+    ],
+    "reference": "",
+    "category": "Smartphones / Premium",
+    "manufacturer": "Apple",
+    "name": "iPhone 7 Plus",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta placeat tenetur adipisci ipsa laudantium architecto, enim perspiciatis nam, voluptate nobis tempore minima hic a libero, facere sunt aspernatur eum nesciunt.",
+    "availability": "In stock",
+    "istop": false,
+    "isnew": false,
+    "datecreated": "2016-11-26T22:00:59.029Z",
+    "ispublished": true,
+    "priceold": 0,
+    "size": [],
+    "stock": 999,
+    "bodywidgets": [
+      "17111123590002yhd0",
+      "17111200040002yhd0"
+    ],
+    "prices": [
+      {
+        "id": "17120621510002xjd0",
+        "name": "Silver",
+        "stock": 999,
+        "price": 999
+      }
+    ],
+    "pricemin": 999,
+    "pricemax": 999,
+    "color": []
+  },
+  {
+    "id": "16112623140002lxu0",
+    "pictures": [
+      "https://eshop.totaljs.com/download/1611262313T8tbyl.jpg",
+      "https://eshop.totaljs.com/download/1611262314T12csq.jpg",
+      "https://eshop.totaljs.com/download/1611262314Tnvu1d.jpg",
+      "https://eshop.totaljs.com/download/1611262314T1beui.jpg"
+    ],
+    "reference": "",
+    "category": "Smartphones / Premium",
+    "manufacturer": "Samsung",
+    "name": "Galaxy S7 Edge",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta placeat tenetur adipisci ipsa laudantium architecto, enim perspiciatis nam, voluptate nobis tempore minima hic a libero, facere sunt aspernatur eum nesciunt.",
+    "availability": "In stock",
+    "istop": false,
+    "isnew": false,
+    "datecreated": "2016-11-26T22:14:03.490Z",
+    "ispublished": true,
+    "priceold": 0,
+    "size": [],
+    "stock": 999,
+    "bodywidgets": [
+      "17111123590002yhd0",
+      "17111200040002yhd0"
+    ],
+    "prices": [
+      {
+        "id": "17120621500005xjd1",
+        "name": "Gold",
+        "stock": 999,
+        "price": 899
+      }
+    ],
+    "pricemin": 899,
+    "pricemax": 899,
+    "color": []
+  },
+  {
+    "id": "16112623180001yxf1",
+    "pictures": [
+      "https://eshop.totaljs.com/download/1611262318Tufbw9.jpg",
+      "https://eshop.totaljs.com/download/1611262318T17971.jpg",
+      "https://eshop.totaljs.com/download/1611262318Ta1d38.jpg",
+      "https://eshop.totaljs.com/download/1611262318Tisodt.jpg"
+    ],
+    "reference": "",
+    "category": "Smartphones / China",
+    "manufacturer": "Huawei",
+    "name": "P9",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta placeat tenetur adipisci ipsa laudantium architecto, enim perspiciatis nam, voluptate nobis tempore minima hic a libero, facere sunt aspernatur eum nesciunt.",
+    "availability": "In stock",
+    "istop": false,
+    "isnew": false,
+    "datecreated": "2016-11-26T22:18:01.493Z",
+    "ispublished": true,
+    "priceold": 0,
+    "size": [],
+    "stock": 999,
+    "bodywidgets": [
+      "17111123590002yhd0",
+      "17111200040002yhd0"
+    ],
+    "prices": [
+      {
+        "id": "17120621500004xjd0",
+        "name": "",
+        "stock": 999,
+        "price": 482
+      }
+    ],
+    "pricemin": 482,
+    "pricemax": 482,
+    "color": []
+  },
+  {
+    "id": "16112623240001wdy1",
+    "pictures": [
+      "https://eshop.totaljs.com/download/1611262325Tu4tke.jpg",
+      "https://eshop.totaljs.com/download/1611262331T16wc3.jpg"
+    ],
+    "reference": "",
+    "category": "Computers",
+    "manufacturer": "Microsoft",
+    "name": "Surface Studio",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta placeat tenetur adipisci ipsa laudantium architecto, enim perspiciatis nam, voluptate nobis tempore minima hic a libero, facere sunt aspernatur eum nesciunt.",
+    "availability": "In stock",
+    "istop": false,
+    "isnew": true,
+    "datecreated": "2016-11-26T22:24:37.279Z",
+    "ispublished": true,
+    "priceold": 0,
+    "size": [],
+    "stock": 999,
+    "bodywidgets": [
+      "17111200010002yhd0",
+      "17111200020002yhd0",
+      "17111200040002yhd0"
+    ],
+    "prices": [
+      {
+        "id": "17120621500003xjd1",
+        "name": "",
+        "stock": 999,
+        "price": 2999
+      }
+    ],
+    "pricemin": 2999,
+    "pricemax": 2999,
+    "color": []
+  },
+  {
+    "id": "16112623590001lde1",
+    "pictures": [
+      "https://eshop.totaljs.com/download/1611262359Ta2v65.jpg",
+      "https://eshop.totaljs.com/download/1611262359Tixkpl.jpg",
+      "https://eshop.totaljs.com/download/1611262359T1205h.jpg"
+    ],
+    "reference": "",
+    "category": "Tablets",
+    "manufacturer": "Lenovo",
+    "name": "Yoga Tab 3",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta placeat tenetur adipisci ipsa laudantium architecto, enim perspiciatis nam, voluptate nobis tempore minima hic a libero, facere sunt aspernatur eum nesciunt.",
+    "availability": "In stock",
+    "istop": false,
+    "isnew": true,
+    "datecreated": "2016-11-26T22:59:11.013Z",
+    "ispublished": true,
+    "priceold": 0,
+    "size": [],
+    "stock": 999,
+    "bodywidgets": [
+      "17111123590002yhd0",
+      "17111200040002yhd0"
+    ],
+    "prices": [
+      {
+        "id": "17120621500002xjd0",
+        "name": "",
+        "stock": 999,
+        "price": 199
+      }
+    ],
+    "pricemin": 199,
+    "pricemax": 199,
+    "color": []
+  },
+  {
+    "id": "16112700010001lde1",
+    "pictures": [
+      "https://eshop.totaljs.com/download/1611270001Tb1gpe.jpg",
+      "https://eshop.totaljs.com/download/1611270001Ttcy13.jpg",
+      "https://eshop.totaljs.com/download/1611270001Tjn3uv.jpg",
+      "https://eshop.totaljs.com/download/1611270001T1ap91.jpg"
+    ],
+    "reference": "",
+    "category": "Tablets",
+    "manufacturer": "Apple",
+    "name": "iPad Pro",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta placeat tenetur adipisci ipsa laudantium architecto, enim perspiciatis nam, voluptate nobis tempore minima hic a libero, facere sunt aspernatur eum nesciunt.",
+    "availability": "In stock",
+    "istop": false,
+    "isnew": false,
+    "datecreated": "2016-11-26T23:01:11.016Z",
+    "ispublished": true,
+    "priceold": 0,
+    "size": [],
+    "stock": 999,
+    "bodywidgets": [],
+    "prices": [
+      {
+        "id": "17120621490003xjd1",
+        "name": "White",
+        "stock": 999,
+        "price": 999
+      }
+    ],
+    "pricemin": 999,
+    "pricemax": 999,
+    "color": []
+  },
+  {
+    "id": "16112709120001wyg1",
+    "pictures": [
+      "https://eshop.totaljs.com/download/1611270911Tm8m2j.jpg",
+      "https://eshop.totaljs.com/download/1611270911T4kp1d.jpg"
+    ],
+    "reference": "",
+    "category": "Gadgets",
+    "manufacturer": "Sphero",
+    "name": "BB-8 Droid",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta placeat tenetur adipisci ipsa laudantium architecto, enim perspiciatis nam, voluptate nobis tempore minima hic a libero, facere sunt aspernatur eum nesciunt.",
+    "availability": "In stock",
+    "istop": false,
+    "isnew": false,
+    "datecreated": "2016-11-27T08:12:46.352Z",
+    "ispublished": true,
+    "priceold": 0,
+    "size": [],
+    "stock": 999,
+    "bodywidgets": [
+      "17111200040002yhd0"
+    ],
+    "prices": [
+      {
+        "id": "17120621490002xjd0",
+        "name": "",
+        "stock": 999,
+        "price": 170
+      }
+    ],
+    "pricemin": 170,
+    "pricemax": 170,
+    "color": []
+  },
+  {
+    "id": "16112709170001wyg1",
+    "pictures": [
+      "https://eshop.totaljs.com/download/1611270915Tq9ceo.jpg",
+      "https://eshop.totaljs.com/download/1611270915T1b8f1.jpg",
+      "https://eshop.totaljs.com/download/1611270915Tpyhqv.jpg",
+      "https://eshop.totaljs.com/download/1611270915T1a8l3.jpg"
+    ],
+    "reference": "",
+    "category": "Gadgets",
+    "manufacturer": "360 Fly",
+    "name": "360 Fly 4K Panormatic 360° Video Camera",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta placeat tenetur adipisci ipsa laudantium architecto, enim perspiciatis nam, voluptate nobis tempore minima hic a libero, facere sunt aspernatur eum nesciunt.",
+    "availability": "In stock",
+    "istop": false,
+    "isnew": false,
+    "datecreated": "2016-11-27T08:17:46.362Z",
+    "ispublished": true,
+    "priceold": 0,
+    "size": [],
+    "stock": 999,
+    "bodywidgets": [
+      "17111200040002yhd0"
+    ],
+    "prices": [
+      {
+        "id": "17120621480004xjd0",
+        "name": "",
+        "stock": 999,
+        "price": 699
+      }
+    ],
+    "pricemin": 699,
+    "pricemax": 699,
+    "color": []
+  },
+  {
+    "id": "16112709220001wyg1",
+    "pictures": [
+      "https://eshop.totaljs.com/download/1611270920Tdyznx.jpg",
+      "https://eshop.totaljs.com/download/1611270920T7e1o9.jpg",
+      "https://eshop.totaljs.com/download/1611270920Tmv5i0.jpg",
+      "https://eshop.totaljs.com/download/1611270920Ttsiw9.jpg"
+    ],
+    "reference": "",
+    "category": "Gadgets",
+    "manufacturer": "Parrot",
+    "name": "POT Slate",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta placeat tenetur adipisci ipsa laudantium architecto, enim perspiciatis nam, voluptate nobis tempore minima hic a libero, facere sunt aspernatur eum nesciunt.",
+    "availability": "In stock",
+    "istop": false,
+    "isnew": false,
+    "datecreated": "2016-11-27T08:22:46.374Z",
+    "ispublished": true,
+    "priceold": 0,
+    "size": [],
+    "stock": 1998,
+    "bodywidgets": [],
+    "prices": [
+      {
+        "id": "17120621480002xjd0",
+        "name": "Black",
+        "stock": 999,
+        "price": 149
+      },
+      {
+        "id": "17120621480003xjd1",
+        "name": "White",
+        "stock": 999,
+        "price": 149
+      }
+    ],
+    "pricemin": 149,
+    "pricemax": 149,
+    "color": [
+      "black",
+      "white"
+    ]
+  },
+  {
+    "id": "16112709260001wyg1",
+    "pictures": [
+      "https://eshop.totaljs.com/download/1611270925T1hqh9.jpg",
+      "https://eshop.totaljs.com/download/1611270925T1e4ug.jpg",
+      "https://eshop.totaljs.com/download/1611270925Tgg5bm.jpg",
+      "https://eshop.totaljs.com/download/1611270925Teivh0.jpg",
+      "https://eshop.totaljs.com/download/1611270925T19cou.jpg",
+      "https://eshop.totaljs.com/download/1611270925Tpekbm.jpg"
+    ],
+    "reference": "",
+    "category": "Gadgets",
+    "manufacturer": "Parrot",
+    "name": "Disco FPV",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta placeat tenetur adipisci ipsa laudantium architecto, enim perspiciatis nam, voluptate nobis tempore minima hic a libero, facere sunt aspernatur eum nesciunt.",
+    "availability": "In stock",
+    "istop": false,
+    "isnew": true,
+    "datecreated": "2016-11-27T08:26:46.379Z",
+    "ispublished": true,
+    "priceold": 0,
+    "size": [],
+    "stock": 999,
+    "bodywidgets": [
+      "17111123590002yhd0",
+      "17111200050002yhd0"
+    ],
+    "prices": [
+      {
+        "id": "17120621470004xjd0",
+        "name": "",
+        "stock": 999,
+        "price": 1300
+      }
+    ],
+    "pricemin": 1300,
+    "pricemax": 1300,
+    "color": []
+  },
+  {
+    "id": "16112709360001wyg1",
+    "pictures": [
+      "https://eshop.totaljs.com/download/1611270935Tzzei5.jpg",
+      "https://eshop.totaljs.com/download/1611270935Ttsd15.jpg",
+      "https://eshop.totaljs.com/download/1611270935T18fo1.jpg",
+      "https://eshop.totaljs.com/download/1611270935Txbgzd.jpg"
+    ],
+    "reference": "",
+    "category": "Gadgets",
+    "manufacturer": "Kolibree",
+    "name": "Smart Toothbrush",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta placeat tenetur adipisci ipsa laudantium architecto, enim perspiciatis nam, voluptate nobis tempore minima hic a libero, facere sunt aspernatur eum nesciunt.",
+    "availability": "In stock",
+    "istop": false,
+    "isnew": false,
+    "datecreated": "2016-11-27T08:36:46.409Z",
+    "ispublished": true,
+    "priceold": 0,
+    "size": [],
+    "stock": 999,
+    "bodywidgets": [
+      "17111200050002yhd0",
+      "17111200040002yhd0"
+    ],
+    "prices": [
+      {
+        "id": "17120621470003xjd1",
+        "name": "",
+        "stock": 999,
+        "price": 119
+      }
+    ],
+    "pricemin": 119,
+    "pricemax": 119,
+    "color": []
+  },
+  {
+    "id": "16112709420001wyg1",
+    "pictures": [
+      "https://eshop.totaljs.com/download/1611270939Tnr479.jpg",
+      "https://eshop.totaljs.com/download/1611270939T2eqh2.jpg",
+      "https://eshop.totaljs.com/download/1611270939Tilv16.jpg",
+      "https://eshop.totaljs.com/download/1611270939Txac1b.jpg"
+    ],
+    "reference": "",
+    "category": "Watches",
+    "manufacturer": "Apple",
+    "name": "Watch Nike+",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta placeat tenetur adipisci ipsa laudantium architecto, enim perspiciatis nam, voluptate nobis tempore minima hic a libero, facere sunt aspernatur eum nesciunt.",
+    "availability": "In stock",
+    "istop": false,
+    "isnew": false,
+    "datecreated": "2016-11-27T08:42:46.420Z",
+    "ispublished": true,
+    "priceold": 0,
+    "size": [],
+    "stock": 999,
+    "bodywidgets": [
+      "17111123590002yhd0",
+      "17111221020002taf0"
+    ],
+    "prices": [
+      {
+        "id": "17120621470002xjd0",
+        "name": "Space Grey",
+        "stock": 999,
+        "price": 449
+      }
+    ],
+    "pricemin": 449,
+    "pricemax": 449,
+    "color": [
+      "silver"
+    ]
+  },
+  {
+    "id": "16112709460001efy1",
+    "pictures": [
+      "https://eshop.totaljs.com/download/1611270945Tkp1cf.jpg",
+      "https://eshop.totaljs.com/download/1611270945T141h1.jpg",
+      "https://eshop.totaljs.com/download/1611270945T8jisb.jpg",
+      "https://eshop.totaljs.com/download/1611270945T1a5l1.jpg"
+    ],
+    "reference": "",
+    "category": "Watches",
+    "manufacturer": "Samsung",
+    "name": "Gear S3 Frontier",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta placeat tenetur adipisci ipsa laudantium architecto, enim perspiciatis nam, voluptate nobis tempore minima hic a libero, facere sunt aspernatur eum nesciunt.",
+    "availability": "In stock",
+    "istop": false,
+    "isnew": false,
+    "datecreated": "2016-11-27T08:46:27.535Z",
+    "ispublished": true,
+    "stock": 998,
+    "bodywidgets": [],
+    "prices": [
+      {
+        "id": "17120621460003xjd1",
+        "name": "Black",
+        "stock": 998,
+        "price": 299
+      }
+    ],
+    "pricemin": 299,
+    "pricemax": 299,
+    "priceold": 0,
+    "size": [],
+    "color": []
+  },
+  {
+    "id": "16112709500001efy1",
+    "pictures": [
+      "https://eshop.totaljs.com/download/1611270951T7psal.jpg",
+      "https://eshop.totaljs.com/download/1611270951T5341a.jpg",
+      "https://eshop.totaljs.com/download/1611270951Th1o1o.jpg",
+      "https://eshop.totaljs.com/download/1611270951Tgg94a.jpg"
+    ],
+    "reference": "",
+    "category": "Watches",
+    "manufacturer": "Huawei",
+    "name": "Watch Black Stainless Steel",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta placeat tenetur adipisci ipsa laudantium architecto, enim perspiciatis nam, voluptate nobis tempore minima hic a libero, facere sunt aspernatur eum nesciunt.",
+    "availability": "In stock",
+    "istop": false,
+    "isnew": false,
+    "datecreated": "2016-11-27T08:50:27.584Z",
+    "ispublished": true,
+    "stock": 999,
+    "bodywidgets": [],
+    "prices": [
+      {
+        "id": "17120621460002xjd0",
+        "name": "Black",
+        "stock": 999,
+        "price": 299
+      }
+    ],
+    "pricemin": 299,
+    "pricemax": 299,
+    "priceold": 0,
+    "size": [],
+    "color": []
+  },
+  {
+    "id": "16112709550001efy1",
+    "pictures": [
+      "https://eshop.totaljs.com/download/1611270954Tyii51.jpg",
+      "https://eshop.totaljs.com/download/1611270954Twzb19.jpg",
+      "https://eshop.totaljs.com/download/1611270954Tjmihi.jpg",
+      "https://eshop.totaljs.com/download/1611270954Tg2g7v.jpg"
+    ],
+    "reference": "",
+    "category": "Watches / Apple",
+    "manufacturer": "Suunto",
+    "name": "Spartan Ultra",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta placeat tenetur adipisci ipsa laudantium architecto, enim perspiciatis nam, voluptate nobis tempore minima hic a libero, facere sunt aspernatur eum nesciunt.",
+    "availability": "In stock",
+    "istop": false,
+    "isnew": true,
+    "datecreated": "2016-11-27T08:55:27.590Z",
+    "priceold": 0,
+    "ispublished": true,
+    "size": [],
+    "stock": 999,
+    "bodywidgets": [
+      "17111123590002yhd0",
+      "17111200050002yhd0"
+    ],
+    "prices": [
+      {
+        "id": "17120621450004xjd0",
+        "name": "",
+        "stock": 999,
+        "price": 799
+      }
+    ],
+    "pricemin": 799,
+    "pricemax": 799,
+    "color": []
+  },
+  {
+    "id": "16112710020001wdy1",
+    "pictures": [
+      "https://eshop.totaljs.com/download/1611271002T96ob6.jpg",
+      "https://eshop.totaljs.com/download/1611271002T16atz.jpg",
+      "https://eshop.totaljs.com/download/1611271002Tvhenm.jpg",
+      "https://eshop.totaljs.com/download/1611271002T1uxuu.jpg"
+    ],
+    "reference": "",
+    "category": "Computers",
+    "manufacturer": "HP",
+    "name": "ENVY",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta placeat tenetur adipisci ipsa laudantium architecto, enim perspiciatis nam, voluptate nobis tempore minima hic a libero, facere sunt aspernatur eum nesciunt.",
+    "availability": "In stock",
+    "istop": false,
+    "isnew": false,
+    "datecreated": "2016-11-27T09:02:20.426Z",
+    "ispublished": true,
+    "stock": 998,
+    "bodywidgets": [
+      "17111200050002yhd0",
+      "17111209480002wjf0",
+      "17111423040002atw0",
+      "17111220540002taf0"
+    ],
+    "prices": [
+      {
+        "id": "17120621450003xjd1",
+        "name": "",
+        "stock": 998,
+        "price": 2199
+      }
+    ],
+    "pricemin": 2199,
+    "pricemax": 2199,
+    "priceold": 0,
+    "size": [],
+    "color": []
+  },
+  {
+    "id": "16112710070001wdy1",
+    "pictures": [
+      "https://eshop.totaljs.com/download/1611271007Twyhfp.jpg",
+      "https://eshop.totaljs.com/download/1611271007Tsci16.jpg"
+    ],
+    "reference": "",
+    "category": "Tablets",
+    "manufacturer": "Google",
+    "name": "Pixel C",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta placeat tenetur adipisci ipsa laudantium architecto, enim perspiciatis nam, voluptate nobis tempore minima hic a libero, facere sunt aspernatur eum nesciunt.",
+    "availability": "In stock",
+    "istop": false,
+    "isnew": true,
+    "datecreated": "2016-11-27T09:07:20.435Z",
+    "ispublished": true,
+    "priceold": 0,
+    "stock": 998,
+    "size": [],
+    "bodywidgets": [],
+    "prices": [
+      {
+        "id": "17120621450002xjd0",
+        "name": "",
+        "stock": 998,
+        "price": 619
+      }
+    ],
+    "pricemin": 619,
+    "pricemax": 619,
+    "color": []
+  },
+  {
+    "id": "16112710100001wdy1",
+    "pictures": [
+      "https://eshop.totaljs.com/download/1611271010Tsbkwf.jpg",
+      "https://eshop.totaljs.com/download/1611271010T16471.jpg",
+      "https://eshop.totaljs.com/download/1611271010Tr93hp.jpg"
+    ],
+    "reference": "",
+    "category": "Gadgets",
+    "manufacturer": "Hover-Way",
+    "name": "Virtual Reality Glasses 2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta placeat tenetur adipisci ipsa laudantium architecto, enim perspiciatis nam, voluptate nobis tempore minima hic a libero, facere sunt aspernatur eum nesciunt.",
+    "availability": "In stock",
+    "istop": false,
+    "isnew": true,
+    "datecreated": "2016-11-27T09:10:20.440Z",
+    "ispublished": true,
+    "priceold": 34,
+    "size": [
+      "XXL"
+    ],
+    "stock": 195,
+    "bodywidgets": [],
+    "prices": [
+      {
+        "id": "17120621300002brh0",
+        "name": "White",
+        "stock": 98,
+        "price": 33
+      },
+      {
+        "id": "17120621310002brh0",
+        "name": "Black",
+        "stock": 97,
+        "price": 32
+      }
+    ],
+    "pricemin": 32,
+    "pricemax": 33,
+    "color": []
+  }
+]
