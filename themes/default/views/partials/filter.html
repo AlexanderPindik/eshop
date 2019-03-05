@@ -19,28 +19,28 @@
 	</div>
 	<div class="col-md-3 col-sm-6 m">
 		<div data-jc="clickbox" class="ui-clickbox" data-jc-config="param:size">
-			<a href="@{href('size', '', 'page')}">@(All sizes)</a>
+			<a href="@{href('size', '', 'page')}">@(Количество игроков: все)</a>
 			@{if repository.category}
 				@{foreach m in repository.category.sizes}
-					<a href="@{href('size', m, 'page')}">@(Size:) @{m}</a>
+					<a href="@{href('size', m, 'page')}">@(Количество игроков:) @{m}</a>
 				@{end}
 			@{else}
 				@{foreach m in global.sizes}
-					<a href="@{href('size', m, 'page')}">@(Size:) @{m}</a>
+					<a href="@{href('size', m, 'page')}">@(Количество игроков:) @{m}</a>
 				@{end}
 			@{fi}
 		</div>
 	</div>
 	<div class="col-md-3 col-sm-6 m">
 		<div data-jc="clickbox" class="ui-clickbox" data-jc-config="param:color">
-			<a href="@{href('color', '', 'page')}">@(All colors)</a>
+			<a href="@{href('color', '', 'page')}">@(Любой возраст)</a>
 			@{if repository.category}
 				@{foreach m in repository.category.colors}
-					<a href="@{href('color', m, 'page')}">@(Color:) @{m}</a>
+					<a href="@{href('color', m, 'page')}">@(Возраст:) @{m}</a>
 				@{end}
 			@{else}
 				@{foreach m in global.colors}
-					<a href="@{href('color', m, 'page')}">@(Color:) @{m}</a>
+					<a href="@{href('color', m, 'page')}">@(Возраст:) @{m}</a>
 				@{end}
 			@{fi}
 		</div>

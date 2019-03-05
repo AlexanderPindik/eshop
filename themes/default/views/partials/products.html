@@ -5,7 +5,7 @@
 			@{if m.isnew}
 				<div class="flags">
 					@{if m.isnew}<span style="background-color:#8CC152">@(НОВИНКА!)</span>@{fi}
-					@{if m.istop}<span style="background-color:#DA4453">@(ЛУЧШЕЕ!)</span>@{fi}
+					@{if m.istop}<span style="background-color:#DA4453">@(ХИТ!)</span>@{fi}
 				</div>
 			@{fi}
 			<a href="@{m.linker}" class="image"><img src="/images/small/@{m.pictures[0]}.jpg" border="0" alt="@{m.name}" /></a>

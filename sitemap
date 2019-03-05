@@ -1,8 +1,8 @@
 // Common
 homepage          : @(Главная)             --> /
-posts             : @(Blog)                --> @(/blog/)                 --> homepage
-post              : @(Post)                --> @(/blog/{0}/)             --> posts
-notices           : @(Notices)             --> @(/notices/)              --> homepage
+posts             : @(Обзоры товаров)      --> @(/blog/)                 --> homepage
+post              : @(Обзор)               --> @(/blog/{0}/)             --> posts
+notices           : @(Новости)             --> @(/notices/)              --> homepage
 
 // Admin area
 admin             : @(Admin)               --> @(/admin/*)

@@ -48,16 +48,16 @@
 			</div>
 		</div>
 		@{fi}
-		<div class="col-md-4 m">
+		<!-- <div class="col-md-4 m">
 			<div class="keyvalue">
 				<div class="key">@(Создан)</div>
 				<div class="value">@{model.datecreated.format('@(yyyy-MM-dd)')}</div>
 			</div>
-		</div>
+		</div> -->
 		@{if model.size && model.size.length}
 		<div class="col-md-4 m">
 			<div class="keyvalue">
-				<div class="key">@(Размеры)</div>
+				<div class="key">@(Количество игроков)</div>
 				<div class="value">@{model.size.join(', ')}</div>
 			</div>
 		</div>
@@ -65,7 +65,7 @@
 		@{if model.color && model.color.length}
 		<div class="col-md-4 m">
 			<div class="keyvalue">
-				<div class="key">@(Цвета)</div>
+				<div class="key">@(Возраст)</div>
 				<div class="value">@{model.color.join(', ')}</div>
 			</div>
 		</div>
@@ -121,7 +121,7 @@
 	@{fi}
 
 	@{if model.pictures && model.pictures.length}
-	<h2>@(Галерея:  @{model.name})</h2>
+	<h2>@(Галерея:  )</h2>  <!-- @{model.name} -->
 	<div data-jc="gallery" class="ui-gallery">
 		<img src="/images/large/@{model.pictures[0]}.jpg" alt="@{model.name}" border="0" />
 		@{foreach m in model.pictures}
