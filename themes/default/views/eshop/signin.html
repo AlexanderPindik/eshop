@@ -4,20 +4,20 @@
 		<div class="content">
 
 			<div class="contentbody bg-yellow" data-jc="enter" data-jc-path="account.signin" data-jc-config="exec:signinsubmit" data-b="account.type" data-b-visible="value === 'signin'">
-				<h2>@(Sign in)</h2>
-				<div data-jc="textbox" data-jc-path="account.signin.email" data-jc-config="required:true;maxlength:120;type:email" data-jc-value="'@'" class="m">@(Email address)</div>
-				<div data-jc="textbox" data-jc-path="account.signin.password" data-jc-config="required:true;maxlength:40;type:password" class="m">@(Password)</div>
-				<a href="javascript:void(0)" class="fs12 exec link m" data-exec="switchpassword"><i class="fa fa-chevron-right"></i>@(I forgot my password)</a>
+				<h2>@(Войти)</h2>
+				<div data-jc="textbox" data-jc-path="account.signin.email" data-jc-config="required:true;maxlength:120;type:email" data-jc-value="'@'" class="m">@(Email адрес)</div>
+				<div data-jc="textbox" data-jc-path="account.signin.password" data-jc-config="required:true;maxlength:40;type:password" class="m">@(Пароль)</div>
+				<a href="javascript:void(0)" class="fs12 exec link m" data-exec="switchpassword"><i class="fa fa-chevron-right"></i>@(Я забыл свой пароль)</a>
 				<div data-jc="error" data-jc-path="account.signin.response"></div>
 				<div data-jc="validation" data-jc-path="account.signin">
-					<button class="button b exec" data-exec="signinsubmit" name="submit" disabled="disabled">@(Sign in)</button>
+					<button class="button b exec" data-exec="signinsubmit" name="submit" disabled="disabled">@(Войти)</button>
 				</div>
 			</div>
 
 			<div class="contentbody hidden" data-jc="enter" data-jc-path="account.password" data-jc-config="exec:passwordsubmit" data-b="account.type" data-b-visible="value === 'password'">
-				<h2>@(Password recovery)</h2>
-				<div data-jc="textbox" data-jc-path="account.password.email" data-jc-config="required:true;maxlength:120;type:email" data-jc-value="'@'" class="m">@(Email address)</div>
-				<a href="javascript:void(0)" class="fs12 exec link m" data-exec="switchpassword"><i class="fa fa-chevron-left"></i>@(Back to sign in)</a>
+				<h2>@(Восстановить пароль)</h2>
+				<div data-jc="textbox" data-jc-path="account.password.email" data-jc-config="required:true;maxlength:120;type:email" data-jc-value="'@'" class="m">@(Email адрес)</div>
+				<a href="javascript:void(0)" class="fs12 exec link m" data-exec="switchpassword"><i class="fa fa-chevron-left"></i>@(Назад)</a>
 				<div data-jc="error" data-jc-path="account.password.response"></div>
 				<div data-jc="validation" data-jc-path="account.password">
 					<button class="button b exec" data-exec="passwordsubmit" name="submit" disabled="disabled">@(Reset)</button>
@@ -29,32 +29,32 @@
 	<div class="col-lg-7 col-md-8">
 		<div class="content">
 			<div class="contentbody">
-				<h2>@(Sign up)</h2>
-				<div class="caption2 nmb"><i class="fa fa-user"></i>@(Personal informations)</div>
+				<h2>@(Регистрация)</h2>
+				<div class="caption2 nmb"><i class="fa fa-user"></i>@(Личная информация)</div>
 				<br />
 				<div class="row">
 					<div class="col-md-4 m">
-						<div data-jc="dropdown" data-jc-path="account.signup.gender" data-jc-config="items:,@(Male)|male,@(Female)|female;required:true">@(Gender)</div>
+						<div data-jc="dropdown" data-jc-path="account.signup.gender" data-jc-config="items:,@(Мужской)|male,@(Женский)|female;required:true">@(Пол)</div>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-6 m">
-						<div data-jc="textbox" data-jc-path="account.signup.firstname" data-jc-config="required:true;maxlength:40">@(First name)</div>
+						<div data-jc="textbox" data-jc-path="account.signup.firstname" data-jc-config="required:true;maxlength:40">@(Имя)</div>
 					</div>
 					<div class="col-md-6 m">
-						<div data-jc="textbox" data-jc-path="account.signup.lastname" data-jc-config="required:true;maxlength:40">@(Last name)</div>
+						<div data-jc="textbox" data-jc-path="account.signup.lastname" data-jc-config="required:true;maxlength:40">@(Фамилия)</div>
 					</div>
 				</div>
 				<br />
-				<div class="caption2 nmb"><i class="fa fa-user"></i>@(Contact informations)</div>
+				<div class="caption2 nmb"><i class="fa fa-user"></i>@(Контакная информация)</div>
 				<br />
 				<div class="row">
 					<div class="col-md-6 m">
-						<div data-jc="textbox" data-jc-path="account.signup.email" data-jc-config="required:true;maxlength:120;type:email" data-jc-value="'@'">@(Email address)</div>
-						<div class="help">@(Will be used as a login name.)</div>
+						<div data-jc="textbox" data-jc-path="account.signup.email" data-jc-config="required:true;maxlength:120;type:email" data-jc-value="'@'">@(Email адрес)</div>
+						<div class="help">@(Будет использован как логин.)</div>
 					</div>
 					<div class="col-md-6 m">
-						<div data-jc="textbox" data-jc-path="account.signup.phone" data-jc-config="maxlength:30;type:phone;placeholder:@(International format)">@(Phone number)</div>
+						<div data-jc="textbox" data-jc-path="account.signup.phone" data-jc-config="maxlength:30;type:phone;placeholder:@(+79991234567)">@(Телефон)</div>
 					</div>
 				</div>
 			</div>
@@ -62,10 +62,10 @@
 			<div class="contentbody">
 				<div class="row mt10">
 					<div class="col-md-6 m">
-						<div data-jc="textbox" data-jc-path="account.signup.password" data-jc-config="required:true;maxlength:30;type:password">@(Password)</div>
+						<div data-jc="textbox" data-jc-path="account.signup.password" data-jc-config="required:true;maxlength:30;type:password">@(Пароль)</div>
 					</div>
 					<div class="col-md-6 m">
-						<div data-jc="textbox" data-jc-path="account.signup.passwordreply" data-jc-config="required:true;maxlength:30;type:password">@(Password again)</div>
+						<div data-jc="textbox" data-jc-path="account.signup.passwordreply" data-jc-config="required:true;maxlength:30;type:password">@(Повторите пароль)</div>
 					</div>
 				</div>
 			</div>
@@ -74,7 +74,7 @@
 				<div data-jc="checkbox" data-jc-path="account.signup.isterms" class="b red m">@(I agree with terms and conditions)</div>
 				<div data-jc="error" data-jc-path="account.signup.response"></div>
 				<div data-jc="validation" data-jc-path="account.signup">
-					<button class="button b exec" data-exec="signupsubmit" name="submit" disabled="disabled">@(Sign up)</button>
+					<button class="button b exec" data-exec="signupsubmit" name="submit" disabled="disabled">@(Зарегистрироваться)</button>
 				</div>
 			</div>
 		</div>

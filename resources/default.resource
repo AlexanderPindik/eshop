@@ -6,14 +6,14 @@ error-notices-404          : Notices not found.
 error-newsletter-sending   : Newsletter is already sending mails.
 error-users-email          : Email is registered in database.
 error-users-credentials    : Invalid credentials.
-error-users-blocked        : Your account has been blocked.
+error-users-blocked        : Ваш аккаунт заблокирован.
 error-data                 : Invalid data.
-error-terms                : You need to agree with terms and conditions.
-error-password-check       : Your passwords do not match.
+error-terms                : Вы должны согласиться с условиями покупок в нашем магазине.
+error-password-check       : Неверный пароль.
 
 error-orders-stock         : We only have {1} "{0}" in stock.
 
-error-products-404         : Product not found.
+error-products-404         : Товар не найден.
 error-products-stock       : Product is missing in stock.
 
-error-users-404            : Account not found.
+error-users-404            : Аккаунт не найден.

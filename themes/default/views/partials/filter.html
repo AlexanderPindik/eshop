@@ -1,7 +1,7 @@
 <div class="row">
 	<div class="col-md-3 col-sm-6 m">
 		<div data-jc="clickbox" class="ui-clickbox" data-jc-config="param:manufacturer">
-			<a href="@{href('manufacturer', '', 'page')}">@(All manufacturers)</a>
+			<a href="@{href('manufacturer', '', 'page')}">@(Все производители)</a>
 			@{if repository.category}
 				@{foreach m in repository.category.manufacturers}
 					@{if m.count}
@@ -47,9 +47,9 @@
 	</div>
 	<div class="col-md-3 col-sm-6 m">
 		<div data-jc="clickbox" class="ui-clickbox" data-jc-config="param:sort">
-			<a href="@{href('sort', '')}">@(Newest)</a>
-			<a href="@{href('sort', 'pricemin_asc')}">@(Low price)</a>
-			<a href="@{href('sort', 'pricemin_desc')}">@(High price)</a>
+			<a href="@{href('sort', '')}">@(Сначала новинки)</a>
+			<a href="@{href('sort', 'pricemin_asc')}">@(Сначала подешевле)</a>
+			<a href="@{href('sort', 'pricemin_desc')}">@(Сначала подороже)</a>
 		</div>
 	</div>
 </div>

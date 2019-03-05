@@ -1,5 +1,5 @@
 // Common
-homepage          : @(Homepage)            --> /
+homepage          : @(Главная)             --> /
 posts             : @(Blog)                --> @(/blog/)                 --> homepage
 post              : @(Post)                --> @(/blog/{0}/)             --> posts
 notices           : @(Notices)             --> @(/notices/)              --> homepage
@@ -8,13 +8,13 @@ notices           : @(Notices)             --> @(/notices/)              --> hom
 admin             : @(Admin)               --> @(/admin/*)
 
 // Eshop
-checkout          : @(Checkout)            --> @(/checkout/)            --> homepage
-category          : @(All products)        --> @(/categories/*)         --> homepage
-detail            : @(Product detail)      --> @(/detail/{0}/)          --> category
-top               : @(Top products)        --> @(/top/)                 --> homepage
-new               : @(New products)        --> @(/new/)                 --> homepage
-popular           : @(Popular products)    --> @(/popular/)             --> homepage
-account           : @(My account)          --> @(/account/)             --> homepage
-order             : @(Order detail)        --> @(/checkout/{0}/)        --> account
-settings          : @(Account settings)    --> @(/account/settings/)    --> account
-logoff            : @(Logoff)              --> @(/logoff/)              --> homepage
+checkout          : @(Оформление заказа)   --> @(/checkout/)            --> homepage
+category          : @(Все товары)          --> @(/categories/*)         --> homepage
+detail            : @(Подробнее о товаре)  --> @(/detail/{0}/)          --> category
+top               : @(Лучшие)              --> @(/top/)                 --> homepage
+new               : @(Новинки)             --> @(/new/)                 --> homepage
+popular           : @(Популярные)          --> @(/popular/)             --> homepage
+account           : @(Личный кабинет)      --> @(/account/)             --> homepage
+order             : @(Детали заказа)       --> @(/checkout/{0}/)        --> account
+settings          : @(Настройки)           --> @(/account/settings/)    --> account
+logoff            : @(Выход)               --> @(/logoff/)              --> homepage

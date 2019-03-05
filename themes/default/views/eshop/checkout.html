@@ -5,14 +5,14 @@
 <div class="hidden" data-b="shoppingcart.items" data-b-visible="!value || !value.length">
 	<br />
 	<div class="empty">
-		@(Your shopping cart is empty, <b>try to visit this page later.</b>)
+		@(Ваша корзинка пуста, <b>попробуйте зайти сюда позже.</b>)
 	</div>
 	<br />
 </div>
 
 <div class="row hidden" data-b="shoppingcart.items" data-b-visible="value && value.length > 0">
 	<div class="col-md-5 m col-md-push-7">
-		<div class="caption">@(Your shopping cart)</div>
+		<div class="caption">@(Ваша корзинка)</div>
 		<div data-jc="checkout" data-currency="@{global.config.currency_entity}">
 			<script type="text/html">
 				<div class="checkout-container">
@@ -21,8 +21,8 @@
 					<div class="checkout-controls">
 						<div class="sum">..</div>
 						<div class="count"><input type="text" maxlength="2" /></div>
-						<div class="price">/ @(1 piece =) <span>...</span></div>
-						<div class="stock">@(In stock:) <b>...</b></div>
+						<div class="price">/ @(1 шт =) <span>...</span></div>
+						<div class="stock">@(На складе:) <b>...</b></div>
 					</div>
 				</div>
 			</script>
@@ -33,43 +33,43 @@
 			<div class="contentbody">
 				<div class="row">
 					<div class="col-md-6 m">
-						<div data-jc="textbox" data-jc-path="order.form.firstname" data-jc-config="required:true;maxlength:40">@(First name)</div>
+						<div data-jc="textbox" data-jc-path="order.form.firstname" data-jc-config="required:true;maxlength:40">@(Имя)</div>
 					</div>
 					<div class="col-md-6 m">
-						<div data-jc="textbox" data-jc-path="order.form.lastname" data-jc-config="required:true;maxlength:40">@(Last name)</div>
+						<div data-jc="textbox" data-jc-path="order.form.lastname" data-jc-config="required:true;maxlength:40">@(Фамилия)</div>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-6 m">
-						<div data-jc="textbox" data-jc-path="order.form.email" data-jc-config="required:true;type:email;maxlength:120" data-jc-value="'@'">@(Email address)</div>
+						<div data-jc="textbox" data-jc-path="order.form.email" data-jc-config="required:true;type:email;maxlength:120" data-jc-value="'@'">@(Email адрес)</div>
 					</div>
 					<div class="col-md-6 m">
-						<div data-jc="textbox" data-jc-path="order.form.phone" data-jc-config="required:true;type:phone;placeholder:@(International format);maxlength:25">@(Phone number)</div>
+						<div data-jc="textbox" data-jc-path="order.form.phone" data-jc-config="required:true;type:phone;placeholder:@(International format);maxlength:25">@(Телефон)</div>
 					</div>
 				</div>
 			</div>
 			<hr class="nmt nmb" />
 			<div class="contentbody">
-				<div class="caption"><i class="fa fa-address-card"></i>@(Billing address)</div>
+				<div class="caption"><i class="fa fa-address-card"></i>@(Адрес регистрации)</div>
 				<div class="row">
 					<div class="col-md-6 m">
-						<div data-jc="textbox" data-jc-path="order.form.billingstreet" data-jc-config="required:true;maxlength:50">@(Street)</div>
+						<div data-jc="textbox" data-jc-path="order.form.billingstreet" data-jc-config="required:true;maxlength:50">@(Улица)</div>
 					</div>
 					<div class="col-md-3 m">
-						<div data-jc="textbox" data-jc-path="order.form.billingzip" data-jc-config="required:true;type:zip;align:center">@(ZIP)</div>
+						<div data-jc="textbox" data-jc-path="order.form.billingzip" data-jc-config="required:true;type:zip;align:center">@(Индекс)</div>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-6 m">
-						<div data-jc="textbox" data-jc-path="order.form.billingcity" data-jc-config="required:true;maxlength:50">@(City)</div>
+						<div data-jc="textbox" data-jc-path="order.form.billingcity" data-jc-config="required:true;maxlength:50">@(Город)</div>
 					</div>
 					<div class="col-md-6 m">
-						<div data-jc="textbox" data-jc-path="order.form.billingcountry" data-jc-config="required:true;maxlength:50">@(Country)</div>
+						<div data-jc="textbox" data-jc-path="order.form.billingcountry" data-jc-config="required:true;maxlength:50">@(Страна)</div>
 					</div>
 				</div>
-				<div data-jc="checkbox" data-jc-path="order.form.iscompany">@(Billing to company)</div>
+				<!-- <div data-jc="checkbox" data-jc-path="order.form.iscompany">@(Billing to company)</div> -->
 			</div>
-			<div  data-b="order.form.iscompany" data-b-visible="value === true" class="hidden contentbody bg-yellow">
+		<!-- 	<div  data-b="order.form.iscompany" data-b-visible="value === true" class="hidden contentbody bg-yellow">
 				<div data-jc="textbox" data-jc-path="order.form.company" data-jc-config="maxlength:40;required:true" class="m">@(Company name)</div>
 				<div class="row">
 					<div class="col-md-6 m">
@@ -79,33 +79,33 @@
 						<div data-jc="textbox" data-jc-path="order.form.companyvat" data-jc-config="maxlength:30;required:true">@(VAT number)</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<hr class="nmt nmb" />
 			<div class="contentbody">
-				<div data-jc="dropdown" data-jc-path="order.form.delivery" data-jc-config="icon:truck;required:true;datasource:order.dependencies.deliverytypes;empty:">@(Delivery)</div>
-				<div class="help m">@(Please choose a type of delivery.)</div>
-				<div data-jc="dropdown" data-jc-path="order.form.payment" data-jc-config="icon:credit-card;required:true;datasource:order.dependencies.paymenttypes;empty:">@(Payment)</div>
-				<div class="help">@(Please choose a type of payment.)</div>
+				<div data-jc="dropdown" data-jc-path="order.form.delivery" data-jc-config="icon:truck;required:true;datasource:order.dependencies.deliverytypes;empty:">@(Доставка)</div>
+				<div class="help m">@(Пожалуйста, выберите способ доставки.)</div>
+				<div data-jc="dropdown" data-jc-path="order.form.payment" data-jc-config="icon:credit-card;required:true;datasource:order.dependencies.paymenttypes;empty:">@(Оплата)</div>
+				<div class="help">@(Пожалуйста, выберите способ оплаты.)</div>
 			</div>
 			<div class="contentbody bg-yellow">
-				<div class="caption"><i class="fa fa-address-card"></i>@(Delivery address)</div>
+				<div class="caption"><i class="fa fa-address-card"></i>@(Адрес доставки)</div>
 
 				<div class="row">
 					<div class="col-md-6 m">
-						<div data-jc="textbox" data-jc-path="order.form.deliveryfirstname" data-jc-config="required:true;maxlength:40">@(First name)</div>
+						<div data-jc="textbox" data-jc-path="order.form.deliveryfirstname" data-jc-config="required:true;maxlength:40">@(Имя)</div>
 					</div>
 					<div class="col-md-6 m">
-						<div data-jc="textbox" data-jc-path="order.form.deliverylastname" data-jc-config="required:true;maxlenght:40">@(Last name)</div>
+						<div data-jc="textbox" data-jc-path="order.form.deliverylastname" data-jc-config="required:true;maxlenght:40">@(Фамилия)</div>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-6 m">
-						<div data-jc="textbox" data-jc-path="order.form.deliveryphone" data-jc-config="required:true;type:phone;placeholder:@(International format);maxlength:25">@(Phone number)</div>
-						<div class="help">@(This phone number is for courier.)</div>
+						<div data-jc="textbox" data-jc-path="order.form.deliveryphone" data-jc-config="required:true;type:phone;placeholder:@(+79991234567);maxlength:25">@(Телефон)</div>
+						<div class="help">@(Этот телефонный номер для курьера.)</div>
 					</div>
 					<div class="col-md-6" style="margin-top:10px">
 						<br class="hidden-xs" />
-						<a href="javascript:void(0)" class="copy exec" data-exec="ordercopypersonal"><i class="fa fa-copy"></i>@(Copy same data as above)</a>
+						<a href="javascript:void(0)" class="copy exec" data-exec="ordercopypersonal"><i class="fa fa-copy"></i>@(Скопировать из личных данных)</a>
 					</div>
 				</div>
 			</div>
@@ -116,26 +116,26 @@
 						<div data-jc="textbox" data-jc-path="order.form.deliverystreet" data-jc-config="required:true;maxlength:50">@(Street)</div>
 					</div>
 					<div class="col-md-3 m">
-						<div data-jc="textbox" data-jc-path="order.form.deliveryzip" data-jc-config="required:true;type:zip;align:center">@(ZIP)</div>
+						<div data-jc="textbox" data-jc-path="order.form.deliveryzip" data-jc-config="required:true;type:zip;align:center">@(Индекс)</div>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-6 m">
-						<div data-jc="textbox" data-jc-path="order.form.deliverycity" data-jc-config="required:true;maxlength:50">@(City)</div>
+						<div data-jc="textbox" data-jc-path="order.form.deliverycity" data-jc-config="required:true;maxlength:50">@(Город)</div>
 					</div>
 					<div class="col-md-6 m">
-						<div data-jc="textbox" data-jc-path="order.form.deliverycountry" data-jc-config="required:true;maxlength:50">@(Country)</div>
+						<div data-jc="textbox" data-jc-path="order.form.deliverycountry" data-jc-config="required:true;maxlength:50">@(Страна)</div>
 					</div>
 				</div>
-				<a href="javascript:void(0)" class="copy exec" data-exec="ordercopyaddress"><i class="fa fa-copy"></i>@(Copy from billing address)</a>
+				<a href="javascript:void(0)" class="copy exec" data-exec="ordercopyaddress"><i class="fa fa-copy"></i>@(Скопировать данные с адреса регистрации)</a>
 			</div>
 			<div class="contentbody">
-				<div data-jc="textarea" data-jc-path="order.form.note" class="m">@(Note)</div>
-				<div data-jc="checkbox" data-jc-path="order.form.isnewsletter" data-jc-value="true">@(I want to be notified about discounts and news)</div>
-				<div data-jc="checkbox" data-jc-path="order.form.isterms" class="m b red">@(I agree with terms and conditions)</div>
+				<div data-jc="textarea" data-jc-path="order.form.note" class="m">@(Примечание)</div>
+				<div data-jc="checkbox" data-jc-path="order.form.isnewsletter" data-jc-value="true">@(Я хочу получать уведомления о скидках и новостях)</div>
+				<div data-jc="checkbox" data-jc-path="order.form.isterms" class="m b red">@(Я согласен с условиями покупки в магазине)</div>
 				<div data-jc="error" data-jc-path="order.form.response"></div>
 				<div data-jc="validation" data-jc-path="order.form" data-jc-config="flags:visible">
-					<button class="button b exec" data-exec="ordersubmit" name="submit" disabled="disabled"><i class="fa fa-send"></i>@(Submit order)</button>
+					<button class="button b exec" data-exec="ordersubmit" name="submit" disabled="disabled"><i class="fa fa-send"></i>@(Заказать)</button>
 				</div>
 			</div>
 		</div>

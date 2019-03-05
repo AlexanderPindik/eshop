@@ -7,29 +7,29 @@
 	<div class="col-md-4 m">
 
 		<div class="keyvalue npt">
-			<div class="key">@(Account name)</div>
+			<div class="key">@(Имя)</div>
 			<div class="value">@{user.name}</div>
 		</div>
 
 		<div class="keyvalue">
-			<div class="key">@(Email address)</div>
+			<div class="key">@(Email адрес)</div>
 			<div class="value">@{user.email}</div>
 		</div>
 
 		<div class="keyvalue">
-			<div class="key">@(Phone number)</div>
-			<div class="value">@{if user.phone}@{user.phone}@{else}@(undefined)@{fi}</div>
+			<div class="key">@(Телефон)</div>
+			<div class="value">@{if user.phone}@{user.phone}@{else}@(не указан)@{fi}</div>
 		</div>
 
 		<div class="keyvalue">
-			<div class="key">@(Discount)</div>
+			<div class="key">@(Скидка)</div>
 			<div class="value">@{user.discount.format(2)}%</div>
 		</div>
 		<br />
 
 		<div>
-			<a href="@{sitemap_url('settings')}" class="link"><i class="fa fa-caret-right"></i>@(Update account)</a>
-			<a href="@{sitemap_url('category')}" class="link"><i class="fa fa-caret-right"></i>@(Browse goods)</a>
+			<a href="@{sitemap_url('settings')}" class="link"><i class="fa fa-caret-right"></i>@(Обновить данные)</a>
+			<a href="@{sitemap_url('category')}" class="link"><i class="fa fa-caret-right"></i>@(Смотреть товары)</a>
 		</div>
 
 	</div>
@@ -37,23 +37,23 @@
 	<div class="col-md-8 m">
 		<div class="content">
 			<div class="contentbody npb">
-				<div class="caption">@(My orders) (<b data-b="orders" data-b-html="value ? value.length : 0"></b>)</div>
+				<div class="caption">@(Мои заказы) (<b data-b="orders" data-b-html="value ? value.length : 0"></b>)</div>
 			</div>
 			<div data-b="orders" data-b-visible="!value || !value.length" class="hidden">
-				<div class="empty"><i class="fa fa-dropbox"></i>@(You don't have any orders.)</div>
+				<div class="empty"><i class="fa fa-dropbox"></i>@(У Вас нет заказов.)</div>
 			</div>
 			<div data-b="orders" data-b-template="true" class="hidden" data-b-visible="value && value.length">
 				<script type="text/html">
 					{{ foreach m in value }}
 						<div class="order">
-							<a href="@{sitemap_url('order', '{{ m.id }}')}" title="@(Preview)"><i class="fa fa-search"></i></a>
+							<a href="@{sitemap_url('order', '{{ m.id }}')}" title="@(Просмотреть)"><i class="fa fa-search"></i></a>
 							<div class="line">
 								<div class="price">{{ m.price | format(2) }}</div>
 								<div class="name">{{ m.name }}</div>
 							</div>
 							<div class="line">
 								<div class="date">{{ m.datecreated | format('@(yyyy-MM-dd HH:mm)') }}</div>
-								<div class="status">{{ if m.isfinished }}<b class="green"><i class="fa fa-check-circle"></i>@(Finished)</b>{{ else }}{{ m.status }}{{ fi }}</div>
+								<div class="status">{{ if m.isfinished }}<b class="green"><i class="fa fa-check-circle"></i>@(Завершен)</b>{{ else }}{{ m.status }}{{ fi }}</div>
 							</div>
 						</div>
 					{{ end }}
