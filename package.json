@@ -4,10 +4,11 @@
   "version": "11.0.0",
   "main": "release.js",
   "repository": {
-      "type": "git",
-      "url": "https://github.com/totaljs/eshop"
+    "type": "git",
+    "url": "https://github.com/totaljs/eshop"
   },
   "dependencies": {
+    "node-loader": "^0.6.0",
     "paypal-express-checkout": "latest",
     "total.js": "latest"
   },
@@ -19,5 +20,5 @@
     "ecommerce"
   ],
   "author": "Peter Širka",
-  "license":"MIT"
+  "license": "MIT"
 }
