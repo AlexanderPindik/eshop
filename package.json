@@ -8,6 +8,7 @@
     "url": "https://github.com/totaljs/eshop"
   },
   "dependencies": {
+    "node-loader": "^0.6.0",
     "paypal-express-checkout": "latest",
     "total.js": "latest"
   },
