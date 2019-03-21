@@ -1,0 +1,46 @@
+2019/03/14 10:18:51 [warn] 28100#28100: the "ssl" directive is deprecated, use the "listen ... ssl" directive instead in /home/admin/conf/web/qupi.shop.nginx.ssl.conf:4
+2019/03/14 10:18:51 [warn] 28297#28297: the "ssl" directive is deprecated, use the "listen ... ssl" directive instead in /home/admin/conf/web/qupi.shop.nginx.ssl.conf:4
+2019/03/14 12:13:45 [warn] 634#634: the "ssl" directive is deprecated, use the "listen ... ssl" directive instead in /home/admin/conf/web/qupi.shop.nginx.ssl.conf:4
+2019/03/14 12:29:35 [warn] 616#616: the "ssl" directive is deprecated, use the "listen ... ssl" directive instead in /home/admin/conf/web/qupi.shop.nginx.ssl.conf:4
+2019/03/14 13:24:53 [emerg] 12664#12664: bind() to 5.253.60.91:80 failed (98: Address already in use)
+2019/03/14 13:24:53 [emerg] 12664#12664: bind() to 5.253.60.91:80 failed (98: Address already in use)
+2019/03/14 13:24:53 [emerg] 12664#12664: bind() to 5.253.60.91:80 failed (98: Address already in use)
+2019/03/14 13:24:53 [emerg] 12664#12664: bind() to 5.253.60.91:80 failed (98: Address already in use)
+2019/03/14 13:24:53 [emerg] 12664#12664: bind() to 5.253.60.91:80 failed (98: Address already in use)
+2019/03/14 13:24:53 [emerg] 12664#12664: still could not bind()
+2019/03/14 13:24:55 [emerg] 12694#12694: bind() to 5.253.60.91:80 failed (98: Address already in use)
+2019/03/14 13:24:55 [emerg] 12694#12694: bind() to 5.253.60.91:80 failed (98: Address already in use)
+2019/03/14 13:24:55 [emerg] 12694#12694: bind() to 5.253.60.91:80 failed (98: Address already in use)
+2019/03/14 13:24:55 [emerg] 12694#12694: bind() to 5.253.60.91:80 failed (98: Address already in use)
+2019/03/14 13:24:55 [emerg] 12694#12694: bind() to 5.253.60.91:80 failed (98: Address already in use)
+2019/03/14 13:24:55 [emerg] 12694#12694: still could not bind()
+2019/03/14 13:25:51 [emerg] 13176#13176: bind() to 5.253.60.91:80 failed (98: Address already in use)
+2019/03/14 13:25:51 [emerg] 13176#13176: bind() to 5.253.60.91:80 failed (98: Address already in use)
+2019/03/14 13:25:51 [emerg] 13176#13176: bind() to 5.253.60.91:80 failed (98: Address already in use)
+2019/03/14 13:25:51 [emerg] 13176#13176: bind() to 5.253.60.91:80 failed (98: Address already in use)
+2019/03/14 13:25:51 [emerg] 13176#13176: bind() to 5.253.60.91:80 failed (98: Address already in use)
+2019/03/14 13:25:51 [emerg] 13176#13176: still could not bind()
+2019/03/14 13:26:04 [emerg] 13406#13406: bind() to 5.253.60.91:80 failed (98: Address already in use)
+2019/03/14 13:26:04 [emerg] 13406#13406: bind() to 5.253.60.91:80 failed (98: Address already in use)
+2019/03/14 13:26:04 [emerg] 13406#13406: bind() to 5.253.60.91:80 failed (98: Address already in use)
+2019/03/14 13:26:04 [emerg] 13406#13406: bind() to 5.253.60.91:80 failed (98: Address already in use)
+2019/03/14 13:26:04 [emerg] 13406#13406: bind() to 5.253.60.91:80 failed (98: Address already in use)
+2019/03/14 13:26:04 [emerg] 13406#13406: still could not bind()
+2019/03/14 13:39:06 [emerg] 14306#14306: bind() to 5.253.60.91:80 failed (98: Address already in use)
+2019/03/14 13:39:06 [emerg] 14306#14306: bind() to 5.253.60.91:80 failed (98: Address already in use)
+2019/03/14 13:39:06 [emerg] 14306#14306: bind() to 5.253.60.91:80 failed (98: Address already in use)
+2019/03/14 13:39:06 [emerg] 14306#14306: bind() to 5.253.60.91:80 failed (98: Address already in use)
+2019/03/14 13:39:06 [emerg] 14306#14306: bind() to 5.253.60.91:80 failed (98: Address already in use)
+2019/03/14 13:39:06 [emerg] 14306#14306: still could not bind()
+2019/03/14 13:44:46 [warn] 15938#15938: the "ssl" directive is deprecated, use the "listen ... ssl" directive instead in /home/admin/conf/web/qupi.shop.nginx.ssl.conf:4
+2019/03/14 14:26:28 [warn] 20700#20700: the "ssl" directive is deprecated, use the "listen ... ssl" directive instead in /home/admin/conf/web/qupi.shop.nginx.ssl.conf:4
+2019/03/14 14:31:36 [warn] 21263#21263: the "ssl" directive is deprecated, use the "listen ... ssl" directive instead in /home/admin/conf/web/qupi.shop.nginx.ssl.conf:4
+2019/03/14 14:31:36 [warn] 21263#21263: conflicting server name "qupi.shop" on 5.253.60.91:80, ignored
+2019/03/14 14:37:55 [warn] 21807#21807: the "ssl" directive is deprecated, use the "listen ... ssl" directive instead in /home/admin/conf/web/qupi.shop.nginx.ssl.conf:4
+2019/03/14 14:37:55 [emerg] 21807#21807: no "ssl_certificate" is defined for the "listen ... ssl" directive in /etc/nginx/conf.d/5.253.60.91.conf:1
+2019/03/14 14:44:04 [warn] 22362#22362: the "ssl" directive is deprecated, use the "listen ... ssl" directive instead in /home/admin/conf/web/qupi.shop.nginx.ssl.conf:4
+2019/03/14 14:44:04 [emerg] 22362#22362: no "ssl_certificate" is defined for the "listen ... ssl" directive in /etc/nginx/conf.d/5.253.60.91.conf:1
+2019/03/14 14:50:10 [warn] 23679#23679: the "ssl" directive is deprecated, use the "listen ... ssl" directive instead in /home/admin/conf/web/qupi.shop.nginx.ssl.conf:4
+2019/03/14 14:50:10 [warn] 23679#23679: conflicting server name "qupi.shop" on 5.253.60.91:80, ignored
+2019/03/14 14:53:59 [warn] 23986#23986: the "ssl" directive is deprecated, use the "listen ... ssl" directive instead in /home/admin/conf/web/qupi.shop.nginx.ssl.conf:4
+2019/03/14 14:53:59 [emerg] 23986#23986: invalid URL prefix in /home/admin/conf/web/qupi.shop.nginx.ssl.conf:10

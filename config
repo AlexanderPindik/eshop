@@ -3,7 +3,7 @@ version                   : 11.0.0
 author                    : Peter Širka
 
 // Hidden super admin in the form username:password
-admin-superadmin          : admin:admin
+admin-superadmin          : admin:admin1234
 admin-cookie              : __admin
 
 // Enables real-time visitor tracking
@@ -11,7 +11,7 @@ admin-tracking            : true
 
 // Image convertor for resizing of pictures
 // Default image converter: im = ImageMagick, gm = GraphicsMagick
-default-image-converter   : gm
+default-image-converter   : im
 
 // Default theme
 default-theme             : default
