@@ -44,13 +44,13 @@
 						<div data-jc="textbox" data-jc-path="order.form.email" data-jc-config="required:true;type:email;maxlength:120" data-jc-value="'@'">@(Email адрес)</div>
 					</div>
 					<div class="col-md-6 m">
-						<div data-jc="textbox" data-jc-path="order.form.phone" data-jc-config="required:true;type:phone;placeholder:@(International format);maxlength:25">@(Телефон)</div>
+						<div data-jc="textbox" data-jc-path="order.form.phone" data-jc-config="required:true;type:phone;maxlength:25">@(Телефон)</div>
 					</div>
 				</div>
 			</div>
 			<hr class="nmt nmb" />
 			<div class="contentbody">
-				<div class="caption"><i class="fa fa-address-card"></i>@(Адрес регистрации)</div>
+				<div class="caption"><i class="fa fa-address-card"></i>@(Адрес доставки (по умолчанию))</div>
 				<div class="row">
 					<div class="col-md-6 m">
 						<div data-jc="textbox" data-jc-path="order.form.billingstreet" data-jc-config="required:true;maxlength:50">@(Улица)</div>
@@ -84,11 +84,12 @@
 			<div class="contentbody">
 				<div data-jc="dropdown" data-jc-path="order.form.delivery" data-jc-config="icon:truck;required:true;datasource:order.dependencies.deliverytypes;empty:">@(Доставка)</div>
 				<div class="help m">@(Пожалуйста, выберите способ доставки.)</div>
+				
 				<div data-jc="dropdown" data-jc-path="order.form.payment" data-jc-config="icon:credit-card;required:true;datasource:order.dependencies.paymenttypes;empty:">@(Оплата)</div>
 				<div class="help">@(Пожалуйста, выберите способ оплаты.)</div>
 			</div>
 			<div class="contentbody bg-yellow">
-				<div class="caption"><i class="fa fa-address-card"></i>@(Адрес доставки)</div>
+				<div class="caption"><i class="fa fa-address-card"></i>@(Информация для доставки)</div>
 
 				<div class="row">
 					<div class="col-md-6 m">
@@ -100,7 +101,7 @@
 				</div>
 				<div class="row">
 					<div class="col-md-6 m">
-						<div data-jc="textbox" data-jc-path="order.form.deliveryphone" data-jc-config="required:true;type:phone;placeholder:@(+79991234567);maxlength:25">@(Телефон)</div>
+						<div data-jc="textbox" data-jc-path="order.form.deliveryphone" data-jc-config="required:true;type:phone;maxlength:25">@(Телефон)</div>
 						<div class="help">@(Этот телефонный номер для курьера.)</div>
 					</div>
 					<div class="col-md-6" style="margin-top:10px">
@@ -113,7 +114,7 @@
 			<div class="contentbody bg-yellow">
 				<div class="row">
 					<div class="col-md-6 m">
-						<div data-jc="textbox" data-jc-path="order.form.deliverystreet" data-jc-config="required:true;maxlength:50">@(Street)</div>
+						<div data-jc="textbox" data-jc-path="order.form.deliverystreet" data-jc-config="required:true;maxlength:50">@(Адрес(улица, дом, квартира))</div>
 					</div>
 					<div class="col-md-3 m">
 						<div data-jc="textbox" data-jc-path="order.form.deliveryzip" data-jc-config="required:true;type:zip;align:center">@(Индекс)</div>
@@ -127,7 +128,7 @@
 						<div data-jc="textbox" data-jc-path="order.form.deliverycountry" data-jc-config="required:true;maxlength:50">@(Страна)</div>
 					</div>
 				</div>
-				<a href="javascript:void(0)" class="copy exec" data-exec="ordercopyaddress"><i class="fa fa-copy"></i>@(Скопировать данные с адреса регистрации)</a>
+				<a href="javascript:void(0)" class="copy exec" data-exec="ordercopyaddress"><i class="fa fa-copy"></i>@(Скопировать данные с адреса по умолчанию)</a>
 			</div>
 			<div class="contentbody">
 				<div data-jc="textarea" data-jc-path="order.form.note" class="m">@(Примечание)</div>
